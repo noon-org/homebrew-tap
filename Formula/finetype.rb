@@ -1,26 +1,26 @@
 class Finetype < Formula
-  desc "Semantic type classifier for data profiling — detects 151 data types from raw strings"
+  desc "Semantic type classifier for data profiling — detects 152 data types from raw strings"
   homepage "https://noon.sh/projects/finetype/"
   license "MIT"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/noon-org/finetype/releases/download/v0.1.0/finetype-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "01cb5edc7c31783d7a9fbb5b581c5d577b440ceac5675ecbf863117cd8520415"
+      url "https://github.com/noon-org/finetype/releases/download/v0.1.1/finetype-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "4342bd44aa934376b52cf5a1e210be257b420b967640bc9bea28beefa91fa802"
     else
-      url "https://github.com/noon-org/finetype/releases/download/v0.1.0/finetype-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6df4add96c028a68289b4639b8840c16720f283326c744fa3db1402b0a641453"
+      url "https://github.com/noon-org/finetype/releases/download/v0.1.1/finetype-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "cc78f287e7a3b7c5262a8032c7c6fd2dcd5f8d63ea680f7c8611e8f829e286b1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/noon-org/finetype/releases/download/v0.1.0/finetype-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "73b3e8893741420fa801839b74dd7d87042fd67b8a35903ff8daf2993bfcbfe2"
+      url "https://github.com/noon-org/finetype/releases/download/v0.1.1/finetype-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6bcc470ef9612757caff7db358b72fec02cdabfcd75ff88d9f4e5f3befd38a67"
     else
-      url "https://github.com/noon-org/finetype/releases/download/v0.1.0/finetype-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "af5983c7231b006e70191d715231287a39ee2821e69cc759df275a23e40ea2e0"
+      url "https://github.com/noon-org/finetype/releases/download/v0.1.1/finetype-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fa68ef06ae74f0d0e53e7ba4198fc9055467e0c046b4af9878a7198a954afb55"
     end
   end
 
