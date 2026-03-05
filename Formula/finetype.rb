@@ -7,20 +7,20 @@ class Finetype < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/noon-org/finetype/releases/download/v0.6.0/finetype-v0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "46f5c542258a7da40c6a73dbc3dfea6908787c5457914c1b4b9506cc0ea814c2"
+      sha256 "79c6f8f55d350003d207f91ab4ae6fc2219113b5e8e624962b9c680e6fdef23c"
     else
       url "https://github.com/noon-org/finetype/releases/download/v0.6.0/finetype-v0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "43b67b0158759a3f4e116fd493b194856b5605f03de8f53b9237765cbf0c01ed"
+      sha256 "8685e1bf91a257af2b876096046891d1f0414ed7cc16601b7433f37dd385f4dc"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/noon-org/finetype/releases/download/v0.6.0/finetype-v0.6.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6a2cda8b18b7f424845c8d850b320cf5ecb892412e7390c3d8803e1f2b7917ea"
+      sha256 "c9bae5dd55e2f1e7546db28295627b1c19116a9f90b74b8553003f6cf26964b5"
     else
       url "https://github.com/noon-org/finetype/releases/download/v0.6.0/finetype-v0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "329a4e44e3806daf7c8e2c43f28143db150e7ac9d83f9e3df5c93ba4f44f5723"
+      sha256 "72310a2fccac9813928901a1745f5afdb02772d65d5d96fca2fcb0ebde88f214"
     end
   end
 
