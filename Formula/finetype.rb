@@ -2,25 +2,25 @@ class Finetype < Formula
   desc "Semantic type classifier for data profiling — detects data types from raw strings"
   homepage "https://noon.sh/projects/finetype/"
   license "MIT"
-  version "0.6.3"
+  version "0.6.4"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/noon-org/finetype/releases/download/v0.6.3/finetype-v0.6.3-aarch64-apple-darwin.tar.gz"
-      sha256 "85459a82060224520ebe094ad23771c79253bcb5b14adfd31ae1108df368d011"
+      url "https://github.com/noon-org/finetype/releases/download/v0.6.4/finetype-v0.6.4-aarch64-apple-darwin.tar.gz"
+      sha256 "55f6f6c2c74fc28da334672357d1a632a496fd89f9348391907a8774bb1c4b6a"
     else
-      url "https://github.com/noon-org/finetype/releases/download/v0.6.3/finetype-v0.6.3-x86_64-apple-darwin.tar.gz"
-      sha256 "7be76d6ef317af848d750d96cb29fba6f016877084347f0fb3c54fb319e3a8da"
+      url "https://github.com/noon-org/finetype/releases/download/v0.6.4/finetype-v0.6.4-x86_64-apple-darwin.tar.gz"
+      sha256 "4f9cd4ffe0544702e89de1a0ceee370253dbcbddceb49728f29b4edf2af4d1b7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/noon-org/finetype/releases/download/v0.6.3/finetype-v0.6.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "10139056ad222018c874f3fea1dc6a26f7a12ade8bb3985c7dbdab83b53874ba"
+      url "https://github.com/noon-org/finetype/releases/download/v0.6.4/finetype-v0.6.4-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "8d68f979040f21edc22e256db0e1bc554c5f2ec9d0525af1089d77d00da13f16"
     else
-      url "https://github.com/noon-org/finetype/releases/download/v0.6.3/finetype-v0.6.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1254eed790cf4b1fda27cdd75a989035216bf4f1e127b6e89cdcbbe6578ea55e"
+      url "https://github.com/noon-org/finetype/releases/download/v0.6.4/finetype-v0.6.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c48c49c0b6ce803609c30ba1e01f826827acc38dd4afe59df3b6ea7b015ab2f4"
     end
   end
 
