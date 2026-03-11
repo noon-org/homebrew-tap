@@ -1,25 +1,25 @@
-# Noon Analytics Homebrew Tap
+# Meridian Homebrew Tap
 
-Homebrew formulae for [Noon Analytics](https://noon.sh) tools.
+Homebrew formulae for [Meridian](https://meridian.online) tools.
 
 ## Installation
 
 ```bash
-brew tap noon-org/tap
+brew tap meridian-online/tap
 brew install finetype
 ```
 
 Or install directly:
 
 ```bash
-brew install noon-org/tap/finetype
+brew install meridian-online/tap/finetype
 ```
 
 ## Available Formulae
 
 | Formula | Description |
 |---|---|
-| [finetype](https://github.com/noon-org/finetype) | Semantic type classifier for data profiling — detects 151 data types from raw strings |
+| [finetype](https://github.com/meridian-online/finetype) | Semantic type classifier for data profiling — detects 151 data types from raw strings |
 
 ## Updating
 
